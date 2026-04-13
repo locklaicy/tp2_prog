@@ -41,7 +41,7 @@ h1 {
 
 
 button {
-    margin-top: 22.4px;
+    
     width: 400px;
     height: 175px;
     background-color: #E51E53;
@@ -52,4 +52,24 @@ button {
     cursor: pointer;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
+}
+
+.chrono {
+    display: flex;
+    flex-direction: row;
+    font-size: 45px;
+}
+
+.chrono1 {
+    color: #227c14;
+}
+
+.chrono2 {
+    color: white;
+    -webkit-text-stroke: black 2px;
+}
+
+.compteRebours {
+    font-size: 40px;
+    
 }
