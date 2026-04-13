@@ -1,17 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Course de voitures</title>
-    <link rel="stylesheet" href="course.css">
-    <script src="course.js"></script>
-</head>
-<body>
-    <p>test1</p>
+    <link rel="stylesheet" href="./course.css" />
+    <script src="./course.js"></script>
+  </head>
+  <body>
+    <img class="logo" src="./assets/logo_course.svg">
+    <h1>Course de voitures</h1>
     
-    <img src="./assets/course_fond.png">
-    <img id="voiture1" src="./assets/voiture1.png">
-    <img id="voiture2" src="./assets/voiture2.png">
-</body>
+    <div class="course-container">
+        <img src="./assets/course_fond.png" />
+    </div>
+    <div class="voiture">
+        <div class="voiture1">
+            <img src="./assets/voiture1.png" />
+        </div>
+        <div class="voiture2">
+            <img  src="./assets/voiture2.png" />
+        </div>
+    </div>
+    
+    <button onclick="demarrerCourse()">Démarrer la Course</button>
+    
+  </body>
 </html>
