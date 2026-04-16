@@ -60,28 +60,25 @@ function demarrerCourse() {
 
 
 
-
-
-
 /*
 <script>
   let countdown; // To store the interval ID
-
+ 
   document.getElementById("startBtn").addEventListener("click", function () {
     let timeLeft = 10; // seconds
     const timerDisplay = document.getElementById("timer");
-
+ 
     // Clear any existing timer
     clearInterval(countdown);
-
+ 
     // Immediately show starting time
     timerDisplay.textContent = timeLeft;
-
+ 
     // Start countdown
     countdown = setInterval(() => {
       timeLeft--;
       timerDisplay.textContent = timeLeft;
-
+ 
       if (timeLeft <= 0) {
         clearInterval(countdown);
         alert("Time's up!");
@@ -89,6 +86,6 @@ function demarrerCourse() {
     }, 1000); // 1000 ms = 1 second
   });
 </script>
-
+ 
 */
 
