@@ -1,5 +1,6 @@
-let voiture1 = document.getElementsByClassName(voiture1);
-let voiture2 = document.getElementsByClassName(voiture2);
+let voiture1 = document.querySelector(".voiture1");
+let voiture2 = document.querySelector(".voiture2");
+let container = document.querySelector(".course-container");
 
 let translationX1;
 let translationX2;
@@ -14,7 +15,7 @@ let voiture2Width = voiture2.offsetWidth;
 
 
 function compteARebour() {
-  
+
 }
 
 function chronometre() {
@@ -29,9 +30,8 @@ function aleatoireTranslationX1() {
 function aleatoireTranslationX2() {
     maxTranslationX2 = containerWidth - voiture2Width;
     return Math.floor(Math.random() * (maxTranslationX2 + 1));
-    return Math.floor(Math.random() * (maxTranslationX1 + 1)) + Math.floor(Math.random() * (maxTranslationX2 + 1));
-
 }
+
 
 function deplacerVoiture() {
     translationX1 = translationX1 + aleatoireTranslationX1();
@@ -57,8 +57,6 @@ function demarrerCourse() {
 
     console.log("Vroum")
 }
-
-
 
 /*
 <script>
