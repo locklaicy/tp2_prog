@@ -4,10 +4,10 @@ let voiture2 = document.getElementsByClassName(voiture2);
 let translationX1;
 let translationX2;
 
-let containerWidth = 
+let containerWidth = course-container.offsetWidth;
 
-let voiture1Width =
-let voiture2Width =
+let voiture1Width = voiture1.offsetWidth;
+let voiture2Width = voiture2.offsetWidth;
 
 
 function compteARebour() {
