@@ -29,8 +29,6 @@ function aleatoireTranslationX1() {
 function aleatoireTranslationX2() {
     maxTranslationX2 = containerWidth - voiture2Width;
     return Math.floor(Math.random() * (maxTranslationX2 + 1));
-}
-
     return Math.floor(Math.random() * (maxTranslationX1 + 1)) + Math.floor(Math.random() * (maxTranslationX2 + 1));
 
 }
