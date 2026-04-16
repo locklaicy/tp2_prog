@@ -5,6 +5,9 @@ let container = document.querySelector(".course-container");
 let translationX1;
 let translationX2;
 
+let maxTranslationX1;
+let maxTranslationX2;
+
 let containerWidth = container.offsetWidth;
 
 let voiture1Width = voiture1.offsetWidth;
@@ -19,13 +22,13 @@ function chronometre() {
 
 }
 
-function aleatoireTranslationX1(voiture1Width) {
-    let maxTranslationX1 = containerWidth - voiture1Width;
+function aleatoireTranslationX1() {
+    maxTranslationX1 = containerWidth - voiture1Width;
     return Math.floor(Math.random() * (maxTranslationX1 + 1));
 }
 
-function aleatoireTranslationX2(voiture2Width) {
-    let maxTranslationX2 = containerWidth - voiture2Width;
+function aleatoireTranslationX2() {
+    maxTranslationX2 = containerWidth - voiture2Width;
     return Math.floor(Math.random() * (maxTranslationX2 + 1));
 }
 
@@ -38,7 +41,7 @@ function deplacerVoiture() {
         translationX1 = maxTranslationX1;
     }
 
-    if (translationX2 > maxTranslationX2) {
+    if (translationX2 >= maxTranslationX2) {
         translationX2 = maxTranslationX2;
     }
 
@@ -47,5 +50,10 @@ function deplacerVoiture() {
 }
 
 function demarrerCourse() {
+    translationX1 = 0;
+    translationX2 = 0;
 
+    let intervalleCourse = setInterval(deplacerVoiture, 50);
+
+    console.log("Vroum")
 }

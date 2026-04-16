@@ -18,15 +18,17 @@ body {
 }
 
 .voiture2 img {
+    position: absolute;
     bottom: 24.5vh;
     width: 270px;
-    right: 87vw;
+    left: 0;
 }
 
 .voiture1 img {
+    position: absolute;
     bottom: 55vh;
     width: 230px;
-    right: 88.2vw;
+    left: 0;
 }
 
 h1 {
