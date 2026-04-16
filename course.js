@@ -19,11 +19,15 @@ function chronometre() {
 }
 
 function aleatoireTranslationX() {
+    let maxTranslationX1 = containerWidth - voiture1Width;
+    let maxTranslationX2 = containerWidth - voiture2Width;
+
+    return Math.floor(Math.random() * (maxTranslationX1 + 1)) + Math.floor(Math.random() * (maxTranslationX2 + 1));
 
 }
 
 function deplacerVoiture() {
-
+    
 }
 
 function demarrerCourse() {
