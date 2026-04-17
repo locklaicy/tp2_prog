@@ -1,77 +1,73 @@
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: flex;
-    flex-direction: column;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-direction: column;
 
-    align-items: center;
+  align-items: center;
 }
 
 .course-container img {
-    position: relative;
-    width: 100vw;
-    
+  position: relative;
+  width: 100vw;
 }
 
-
 .voiture img {
-    position : absolute;
+  position: absolute;
 }
 
 .voiture2 img {
-    position: absolute;
-    bottom: 24.5vh;
-    width: 270px;
-    left: 0;
+  position: absolute;
+  bottom: 24.5vh;
+  width: 270px;
+  left: 0;
 }
 
 .voiture1 img {
-    position: absolute;
-    bottom: 55vh;
-    width: 230px;
-    left: 0;
+  position: absolute;
+  bottom: 55vh;
+  width: 230px;
+  left: 0;
 }
 
 h1 {
-    margin-bottom: 25px;
-    font-size: 40px;
+  margin-bottom: 25px;
+  font-size: 40px;
 }
 
 .logo {
-    width: 200px;
-    margin-right: 10px;
+  width: 200px;
+  margin-right: 10px;
 }
 
-
 button {
-    
-    width: 400px;
-    height: 175px;
-    background-color: #E51E53;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
+  width: 400px;
+  height: 175px;
+  background-color: #e51e53;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
 }
 
 .chrono {
-    display: flex;
-    flex-direction: row;
-    font-size: 45px;
+  display: flex;
+  flex-direction: row;
+  font-size: 45px;
 }
 
 .chrono1 {
-    color: #227c14;
+  color: #227c14;
 }
 
 .chrono2 {
-    color: white;
-    -webkit-text-stroke: black 2px;
+  color: white;
+  -webkit-text-stroke: black 2px;
 }
 
 .compteRebours {
-    font-size: 40px;
-    
+  font-size: 40px;
 }
+
